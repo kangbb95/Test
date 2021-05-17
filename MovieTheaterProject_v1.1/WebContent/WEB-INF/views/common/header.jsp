@@ -78,7 +78,10 @@
 			<%if(m ==null) {%>
 			<button class="btn btn-secondary my-2 my-sm-0" data-toggle="modal" data-target=".modal">SIGN IN</button>
 			<a class = "btn btn-secondary my-2 my-sm-0" href="/joinFrm">회원가입</a>
-			<%} else{%>
+			<%} else if(m.getMemberLevel() == 1){%>
+			<a class = "btn btn-secondary my-2 my-sm-0" href="/movieManage"><%=m.getMemberName()+"페이지" %></a>
+			<a class = "btn btn-secondary my-2 my-sm-0" href="/logout">로그아웃</a>
+			<%}else{ %>
 			<a class = "btn btn-secondary my-2 my-sm-0" href="/mypage"><%=m.getMemberName() %></a>
 			<a class = "btn btn-secondary my-2 my-sm-0" href="/logout">로그아웃</a>
 			<%} %>
