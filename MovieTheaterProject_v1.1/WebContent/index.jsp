@@ -10,6 +10,7 @@
 <body>
 	<%@include file="/WEB-INF/views/common/header.jsp"%>
 	<div class="container">
+	아무메세지
 	</div>
 	<%@include file="/WEB-INF/views/common/footer.jsp"%>
 </body>
