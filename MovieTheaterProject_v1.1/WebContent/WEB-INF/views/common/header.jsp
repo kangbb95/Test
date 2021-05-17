@@ -71,7 +71,8 @@
 						<a class="dropdown-item" href="#">굿즈샵</a>
 					</div>
 				</li>
-				<li class="nav-item">
+				 <li class="nav-item">
+				
 					<a class="nav-link" href="/view/boardList.jsp">게시판</a>
 				</li>
 			</ul>
