@@ -10,6 +10,7 @@
 <body>
 	<%@include file="/WEB-INF/views/common/header.jsp"%>
 	<div class="container">
+	<h1>병주씨제발됐으면 좋겠네요..</h1>
 	</div>
 	<%@include file="/WEB-INF/views/common/footer.jsp"%>
 </body>
