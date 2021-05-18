@@ -9,6 +9,7 @@
 
 <body>
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<%@include file="/WEB-INF/views/common/header.jsp"%>
 	<div class="container">
 	아무메세지
@@ -21,6 +22,11 @@
 	<div class="container">
 	 <h1>히..</h1>
 >>>>>>> refs/remotes/origin/kang
+=======
+	<%@include file="/WEB-INF/views/common/header.jsp"%>
+	<div class="container">
+	 <h1>히..</h1>
+>>>>>>> branch 'kang' of https://github.com/kangbb95/Test.git
 	</div>
 	<%@include file="/WEB-INF/views/common/footer.jsp"%>
 </body>
